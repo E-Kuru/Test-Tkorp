@@ -24,6 +24,9 @@ export class Animal {
   @Column()
   weight: number;
 
+  @Column()
+  ownerId : string;
+
   // @ManyToOne(type => Person,  (person) => person.id)
   // owner?: string
 }
