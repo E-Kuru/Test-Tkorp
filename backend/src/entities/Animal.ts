@@ -1,4 +1,5 @@
-import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
+import { Entity, Column, PrimaryGeneratedColumn, ManyToOne } from 'typeorm';
+import { Person } from './Person';
 
 @Entity()
 export class Animal {
@@ -23,7 +24,6 @@ export class Animal {
   @Column()
   weight: number;
 
-  @Column()
-  ownerId: number;
-
+  // @ManyToOne(type => Person,  (person) => person.id)
+  // owner?: string
 }

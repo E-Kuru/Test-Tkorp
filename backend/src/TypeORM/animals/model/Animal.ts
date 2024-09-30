@@ -4,6 +4,6 @@ export interface AnimalModel {
     breed?: string,
     color?: string,
     weight?: number;
-    ownerId?: number;
+    ownerId?: string;
     dateOfBirth?: Date;
 }
