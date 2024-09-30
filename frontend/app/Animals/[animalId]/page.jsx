@@ -10,7 +10,7 @@ const page = ({params}) => {
     const [animal, setAnimal] = useState([])
 
     useEffect(() => {
-      getAnimal()
+      getAnimal()      
     },[])
     
 
@@ -37,7 +37,7 @@ const page = ({params}) => {
                         <li class="list-group-item">Breed : {animal.breed}</li>
                         <li class="list-group-item">Weight : {animal.weight}</li>
                         <li class="list-group-item">Owner ID : {animal.ownerId}</li>
-                        </ul>
+                    </ul>
                 </div>
             </div>
         )}

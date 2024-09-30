@@ -35,7 +35,7 @@ const page = ({params}) => {
                         <li class="list-group-item">Last Name : {person.lastName}</li>
                         <li class="list-group-item">Email : {person.email}</li>
                         <li class="list-group-item">Phone Number : {person.phoneNumber}</li>
-                        </ul>
+                    </ul>
                 </div>
             </div>
         )}
